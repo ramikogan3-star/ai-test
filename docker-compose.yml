@@ -1,0 +1,7 @@
+services:
+  web_api:
+    image: my-app-image:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - API_KEY=sk-3n9f2k8Lp1m0Xv9aQz4wR7tY2uI5oP8
